@@ -235,7 +235,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <section class="container">
         <h4 class="checkout-h4">01. Shipping Adress</h4>
         <div class="checkout-ship-register">
             <div class="checkout-shipping">
@@ -262,18 +262,20 @@
             <div class="checkout-registration">
                 <p class="checkout-headings">Already registed?</p>
                 <p class="checkout-p">Please log in below</p>
+                <form>
                 <p class="radio-button-label no-margin-left">EMAIL ADDRESS <span class="mandatory-field">*</span></p>
-                <input type="text" class="shipping-fields">
+                <input required type="text" class="shipping-fields">
                 <p class="radio-button-label no-margin-left">PASSWORD <span class="mandatory-field">*</span></p>
-                <input type="text" class="shipping-fields">
+                <input required type="text" class="shipping-fields">
                 <p class="required-fields">* Required Fields</p>
                 <div class="password">
-                    <a href="#" class="checkout-buttons-names no-margin-top">Log In</a>
+                    <button type="submit" class="checkout-buttons-names no-margin-top">Log In</button>
                     <p class="forgot-password">Forgot Password?</p>
                 </div>
+            </form>
             </div>
         </div>
-    </div>
+    </section>
 
     <table class="checkout-table container">
         <tr>
@@ -383,6 +385,7 @@
                     <i class="fa-brands fa-google-plus-g"></i>
                 </a>
             </div>
+        </div>
     </footer>
 
 </body>
